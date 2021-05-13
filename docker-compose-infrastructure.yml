@@ -6,7 +6,7 @@ services:
     restart: always
     environment:
       MYSQL_DATABASE: 'flights_catalog'
-      MYSQL_USER: 'root'
+      # MYSQL_USER: 'root'
       MYSQL_PASSWORD: 'muppet'
       MYSQL_ROOT_PASSWORD: 'muppet'
     ports:
@@ -25,7 +25,7 @@ services:
     restart: always
     environment:
       MYSQL_DATABASE: 'flights_pricing'
-      MYSQL_USER: 'root'
+      # MYSQL_USER: 'root'
       MYSQL_PASSWORD: 'muppet'
       MYSQL_ROOT_PASSWORD: 'muppet'        
     ports:
