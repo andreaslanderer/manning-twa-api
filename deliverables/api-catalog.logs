@@ -1,0 +1,228 @@
+api-catalog  | 
+api-catalog  |   .   ____          _            __ _ _
+api-catalog  |  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+api-catalog  | ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+api-catalog  |  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+api-catalog  |   '  |____| .__|_| |_|_| |_\__, | / / / /
+api-catalog  |  =========|_|==============|___/=/_/_/_/
+api-catalog  |  :: Spring Boot ::                (v2.4.2)
+api-catalog  | 
+api-catalog  | 2021-05-13 20:06:20.139  INFO 1 --- [           main] com.twa.flights.api.catalog.App          : Starting App using Java 12-ea on bfc9fa529d40 with PID 1 (/application/api-catalog.jar started by root in /)
+api-catalog  | 2021-05-13 20:06:20.147  INFO 1 --- [           main] com.twa.flights.api.catalog.App          : The following profiles are active: default
+api-catalog  | 
+api-catalog  |   .   ____          _            __ _ _
+api-catalog  |  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+api-catalog  | ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+api-catalog  |  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+api-catalog  |   '  |____| .__|_| |_|_| |_\__, | / / / /
+api-catalog  |  =========|_|==============|___/=/_/_/_/
+api-catalog  |  :: Spring Boot ::                (v2.4.2)
+api-catalog  | 
+api-catalog  | 2021-05-13 20:07:39.425  INFO 1 --- [           main] com.twa.flights.api.catalog.App          : Starting App using Java 12-ea on bfc9fa529d40 with PID 1 (/application/api-catalog.jar started by root in /)
+api-catalog  | 2021-05-13 20:07:39.435  INFO 1 --- [           main] com.twa.flights.api.catalog.App          : The following profiles are active: default
+api-catalog  | 2021-05-13 20:07:46.118  INFO 1 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+api-catalog  | 2021-05-13 20:07:46.398  INFO 1 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 223 ms. Found 1 JPA repository interfaces.
+api-catalog  | 2021-05-13 20:07:48.243  INFO 1 --- [           main] org.eclipse.jetty.util.log               : Logging initialized @14080ms to org.eclipse.jetty.util.log.Slf4jLog
+api-catalog  | 2021-05-13 20:07:48.899  INFO 1 --- [           main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 6070
+api-catalog  | 2021-05-13 20:07:48.916  INFO 1 --- [           main] org.eclipse.jetty.server.Server          : jetty-9.4.35.v20201120; built: 2020-11-20T21:17:03.964Z; git: bdc54f03a5e0a7e280fab27f55c3c75ee8da89fb; jvm 12-ea+29
+api-catalog  | 2021-05-13 20:07:49.107  INFO 1 --- [           main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+api-catalog  | 2021-05-13 20:07:49.116  INFO 1 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 9211 ms
+api-catalog  | 2021-05-13 20:07:50.213  INFO 1 --- [           main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+api-catalog  | 2021-05-13 20:07:50.213  INFO 1 --- [           main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+api-catalog  | 2021-05-13 20:07:50.221  INFO 1 --- [           main] org.eclipse.jetty.server.session         : node0 Scavenging every 660000ms
+api-catalog  | 2021-05-13 20:07:50.246  INFO 1 --- [           main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@61d9efe0{application,/api/flights/catalog,[file:///tmp/jetty-docbase.6070.10340885135184267215/, jar:file:/application/api-catalog.jar!/BOOT-INF/lib/swagger-ui-3.47.1.jar!/META-INF/resources],AVAILABLE}
+api-catalog  | 2021-05-13 20:07:50.266  INFO 1 --- [           main] org.eclipse.jetty.server.Server          : Started @16111ms
+api-catalog  | 2021-05-13 20:07:51.086  INFO 1 --- [           main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 7.1.1 by Redgate
+api-catalog  | 2021-05-13 20:07:51.162  INFO 1 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+api-catalog  | 2021-05-13 20:07:52.527  INFO 1 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+api-catalog  | 2021-05-13 20:07:52.745  INFO 1 --- [           main] o.f.c.i.database.base.DatabaseType       : Database: jdbc:mysql://api-catalog-db:3306/flights_catalog (MySQL 5.7)
+api-catalog  | 2021-05-13 20:07:53.056  INFO 1 --- [           main] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.149s)
+api-catalog  | 2021-05-13 20:07:53.089  INFO 1 --- [           main] o.f.c.i.s.JdbcTableSchemaHistory         : Creating Schema History table `flights_catalog`.`flyway_schema_history` ...
+api-catalog  | 2021-05-13 20:07:53.191  INFO 1 --- [           main] o.f.core.internal.command.DbMigrate      : Current version of schema `flights_catalog`: << Empty Schema >>
+api-catalog  | 2021-05-13 20:07:53.220  INFO 1 --- [           main] o.f.core.internal.command.DbMigrate      : Migrating schema `flights_catalog` to version "1.0 - create database"
+api-catalog  | 2021-05-13 20:07:53.545  INFO 1 --- [           main] o.f.core.internal.command.DbMigrate      : Migrating schema `flights_catalog` to version "1.1 - insert rows"
+api-catalog  | 2021-05-13 20:07:54.052  INFO 1 --- [           main] o.f.core.internal.command.DbMigrate      : Successfully applied 2 migrations to schema `flights_catalog` (execution time 00:00.883s)
+api-catalog  | 2021-05-13 20:07:54.290  INFO 1 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+api-catalog  | 2021-05-13 20:07:54.586  INFO 1 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+api-catalog  | 2021-05-13 20:07:55.058  INFO 1 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+api-catalog  | 2021-05-13 20:07:55.524  INFO 1 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+api-catalog  | 2021-05-13 20:07:57.691  INFO 1 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+api-catalog  | 2021-05-13 20:07:57.720  INFO 1 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+api-catalog  | WARNING: An illegal reflective access operation has occurred
+api-catalog  | WARNING: Illegal reflective access by ma.glasnost.orika.converter.builtin.CloneableConverter (jar:file:/application/api-catalog.jar!/BOOT-INF/lib/orika-core-1.5.4.jar!/) to method java.lang.Object.clone()
+api-catalog  | WARNING: Please consider reporting this to the maintainers of ma.glasnost.orika.converter.builtin.CloneableConverter
+api-catalog  | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+api-catalog  | WARNING: All illegal access operations will be denied in a future release
+api-catalog  | 2021-05-13 20:07:59.163  WARN 1 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+api-catalog  | 2021-05-13 20:07:59.321  INFO 1 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+api-catalog  | 2021-05-13 20:08:01.463  INFO 1 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path ''
+api-catalog  | 2021-05-13 20:08:01.517  INFO 1 --- [           main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+api-catalog  | 2021-05-13 20:08:01.517  INFO 1 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+api-catalog  | 2021-05-13 20:08:01.520  INFO 1 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+api-catalog  | 2021-05-13 20:08:01.541  INFO 1 --- [           main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@4879f0f2{HTTP/1.1, (http/1.1)}{0.0.0.0:6070}
+api-catalog  | 2021-05-13 20:08:01.543  INFO 1 --- [           main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 6070 (http/1.1) with context path '/api/flights/catalog'
+api-catalog  | 2021-05-13 20:08:01.568  INFO 1 --- [           main] com.twa.flights.api.catalog.App          : Started App in 24.816 seconds (JVM running for 27.414)
+api-catalog  | 2021-05-13 20:10:31.022  INFO 1 --- [qtp864138492-21] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:31.635  INFO 1 --- [qtp864138492-16] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:31.646  INFO 1 --- [qtp864138492-17] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:31.665  INFO 1 --- [qtp864138492-20] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:33.320  INFO 1 --- [qtp864138492-15] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:33.418  INFO 1 --- [qtp864138492-19] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:33.447  INFO 1 --- [qtp864138492-21] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:33.519  INFO 1 --- [qtp864138492-20] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:33.531  INFO 1 --- [qtp864138492-19] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:33.542  INFO 1 --- [qtp864138492-21] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:33.551  INFO 1 --- [qtp864138492-19] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:33.567  INFO 1 --- [qtp864138492-20] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:33.578  INFO 1 --- [qtp864138492-16] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:33.591  INFO 1 --- [qtp864138492-19] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:33.607  INFO 1 --- [qtp864138492-20] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:33.622  INFO 1 --- [qtp864138492-16] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:33.640  INFO 1 --- [qtp864138492-22] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:33.642  INFO 1 --- [qtp864138492-19] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:33.660  INFO 1 --- [qtp864138492-20] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:33.663  INFO 1 --- [qtp864138492-16] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:33.673  INFO 1 --- [qtp864138492-22] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:33.683  INFO 1 --- [qtp864138492-15] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:33.688  INFO 1 --- [qtp864138492-21] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:33.698  INFO 1 --- [qtp864138492-20] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:33.700  INFO 1 --- [qtp864138492-21] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:33.715  INFO 1 --- [qtp864138492-22] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:33.718  INFO 1 --- [qtp864138492-16] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:33.732  INFO 1 --- [qtp864138492-15] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:33.742  INFO 1 --- [qtp864138492-21] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:33.747  INFO 1 --- [qtp864138492-16] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:33.759  INFO 1 --- [qtp864138492-22] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:33.764  INFO 1 --- [qtp864138492-20] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:33.773  INFO 1 --- [qtp864138492-15] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:33.776  INFO 1 --- [qtp864138492-16] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:33.793  INFO 1 --- [qtp864138492-20] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:33.803  INFO 1 --- [qtp864138492-22] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:33.813  INFO 1 --- [qtp864138492-15] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:33.825  INFO 1 --- [qtp864138492-21] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:33.826  INFO 1 --- [qtp864138492-20] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:33.844  INFO 1 --- [qtp864138492-20] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:33.845  INFO 1 --- [qtp864138492-22] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:33.854  INFO 1 --- [qtp864138492-16] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:33.865  INFO 1 --- [qtp864138492-15] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:33.866  INFO 1 --- [qtp864138492-21] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:33.877  INFO 1 --- [qtp864138492-20] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:33.877  INFO 1 --- [qtp864138492-22] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:33.897  INFO 1 --- [qtp864138492-21] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:33.900  INFO 1 --- [qtp864138492-16] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:33.909  INFO 1 --- [qtp864138492-15] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:33.922  INFO 1 --- [qtp864138492-22] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:33.924  INFO 1 --- [qtp864138492-15] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:33.934  INFO 1 --- [qtp864138492-20] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:33.937  INFO 1 --- [qtp864138492-21] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:33.950  INFO 1 --- [qtp864138492-16] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:33.959  INFO 1 --- [qtp864138492-19] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:33.964  INFO 1 --- [qtp864138492-21] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:33.971  INFO 1 --- [qtp864138492-20] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:33.974  INFO 1 --- [qtp864138492-22] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:33.986  INFO 1 --- [qtp864138492-21] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:33.986  INFO 1 --- [qtp864138492-16] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:33.995  INFO 1 --- [qtp864138492-19] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.005  INFO 1 --- [qtp864138492-15] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.014  INFO 1 --- [qtp864138492-16] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.016  INFO 1 --- [qtp864138492-22] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.031  INFO 1 --- [qtp864138492-21] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.034  INFO 1 --- [qtp864138492-19] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.042  INFO 1 --- [qtp864138492-22] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.051  INFO 1 --- [qtp864138492-20] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.056  INFO 1 --- [qtp864138492-16] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.067  INFO 1 --- [qtp864138492-15] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.067  INFO 1 --- [qtp864138492-16] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.081  INFO 1 --- [tp864138492-102] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.082  INFO 1 --- [qtp864138492-17] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.096  INFO 1 --- [qtp864138492-20] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.109  INFO 1 --- [qtp864138492-17] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.109  INFO 1 --- [qtp864138492-16] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.120  INFO 1 --- [qtp864138492-20] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.124  INFO 1 --- [qtp864138492-15] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.136  INFO 1 --- [qtp864138492-16] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.138  INFO 1 --- [tp864138492-102] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.149  INFO 1 --- [qtp864138492-17] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.151  INFO 1 --- [qtp864138492-15] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.164  INFO 1 --- [tp864138492-102] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.166  INFO 1 --- [qtp864138492-20] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.177  INFO 1 --- [qtp864138492-16] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.180  INFO 1 --- [qtp864138492-15] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.190  INFO 1 --- [qtp864138492-20] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.196  INFO 1 --- [qtp864138492-17] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.203  INFO 1 --- [tp864138492-102] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.209  INFO 1 --- [qtp864138492-16] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.218  INFO 1 --- [qtp864138492-17] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.226  INFO 1 --- [qtp864138492-15] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.229  INFO 1 --- [qtp864138492-20] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.239  INFO 1 --- [tp864138492-102] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.250  INFO 1 --- [qtp864138492-16] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.252  INFO 1 --- [qtp864138492-15] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.265  INFO 1 --- [qtp864138492-20] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.266  INFO 1 --- [qtp864138492-17] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.276  INFO 1 --- [qtp864138492-16] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.278  INFO 1 --- [tp864138492-102] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.286  INFO 1 --- [qtp864138492-15] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.290  INFO 1 --- [qtp864138492-20] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.296  INFO 1 --- [tp864138492-102] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.307  INFO 1 --- [qtp864138492-17] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.311  INFO 1 --- [qtp864138492-16] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.321  INFO 1 --- [qtp864138492-15] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.323  INFO 1 --- [qtp864138492-16] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.335  INFO 1 --- [qtp864138492-21] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.336  INFO 1 --- [qtp864138492-20] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.346  INFO 1 --- [qtp864138492-17] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.347  INFO 1 --- [qtp864138492-21] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.358  INFO 1 --- [qtp864138492-16] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.361  INFO 1 --- [qtp864138492-15] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.368  INFO 1 --- [qtp864138492-20] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.374  INFO 1 --- [qtp864138492-16] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.383  INFO 1 --- [qtp864138492-17] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.391  INFO 1 --- [qtp864138492-21] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.396  INFO 1 --- [qtp864138492-15] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.402  INFO 1 --- [qtp864138492-17] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.409  INFO 1 --- [qtp864138492-20] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.412  INFO 1 --- [qtp864138492-16] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.419  INFO 1 --- [qtp864138492-21] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.425  INFO 1 --- [qtp864138492-20] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.429  INFO 1 --- [qtp864138492-17] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.436  INFO 1 --- [qtp864138492-15] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.442  INFO 1 --- [qtp864138492-21] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.447  INFO 1 --- [qtp864138492-20] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.454  INFO 1 --- [qtp864138492-16] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.463  INFO 1 --- [qtp864138492-15] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.468  INFO 1 --- [qtp864138492-17] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.477  INFO 1 --- [qtp864138492-21] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.478  INFO 1 --- [qtp864138492-16] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.489  INFO 1 --- [qtp864138492-20] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.490  INFO 1 --- [qtp864138492-15] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.497  INFO 1 --- [qtp864138492-16] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.508  INFO 1 --- [qtp864138492-17] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.513  INFO 1 --- [qtp864138492-21] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.517  INFO 1 --- [qtp864138492-20] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.524  INFO 1 --- [qtp864138492-17] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.526  INFO 1 --- [qtp864138492-15] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.538  INFO 1 --- [qtp864138492-21] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.539  INFO 1 --- [qtp864138492-16] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.548  INFO 1 --- [qtp864138492-15] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.549  INFO 1 --- [qtp864138492-20] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.558  INFO 1 --- [qtp864138492-21] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.558  INFO 1 --- [qtp864138492-17] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.567  INFO 1 --- [qtp864138492-20] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.570  INFO 1 --- [qtp864138492-16] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.578  INFO 1 --- [qtp864138492-15] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.588  INFO 1 --- [qtp864138492-17] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.602  INFO 1 --- [qtp864138492-20] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.612  INFO 1 --- [qtp864138492-15] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.627  INFO 1 --- [qtp864138492-17] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.638  INFO 1 --- [qtp864138492-20] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.647  INFO 1 --- [qtp864138492-15] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.655  INFO 1 --- [qtp864138492-20] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.667  INFO 1 --- [qtp864138492-15] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.676  INFO 1 --- [qtp864138492-17] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.692  INFO 1 --- [qtp864138492-20] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.700  INFO 1 --- [qtp864138492-15] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.712  INFO 1 --- [qtp864138492-17] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.723  INFO 1 --- [qtp864138492-20] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
+api-catalog  | 2021-05-13 20:10:34.736  INFO 1 --- [qtp864138492-15] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code MIA
+api-catalog  | 2021-05-13 20:10:34.751  INFO 1 --- [qtp864138492-17] c.t.f.a.c.controller.CatalogController   : Obtain all the information about the city with code BUE
